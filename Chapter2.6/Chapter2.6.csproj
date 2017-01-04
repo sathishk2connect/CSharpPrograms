@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{208DE5BE-1297-41FF-8C7C-7E02080877A4}</ProjectGuid>
+    <ProjectGuid>{01522350-5957-4933-B556-9886F0AC51E0}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Chapter4._3</RootNamespace>
-    <AssemblyName>Chapter4.3</AssemblyName>
+    <RootNamespace>Chapter2._6</RootNamespace>
+    <AssemblyName>Chapter2.6</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -32,12 +32,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Chapter4._3.LinqSort</StartupObject>
+    <StartupObject>Chapter2._6.DisposeFromAnotherDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,12 +44,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ExtensionMethodDemo.cs" />
-    <Compile Include="FuncDemo.cs" />
-    <Compile Include="LinqDemo.cs" />
-    <Compile Include="LinqLeftOuterJoin.cs" />
-    <Compile Include="LinqOrderGroup.cs" />
-    <Compile Include="LinqSort.cs" />
+    <Compile Include="DisposeDemo.cs" />
+    <Compile Include="DisposeFromAnotherDemo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
